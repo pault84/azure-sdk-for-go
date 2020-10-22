@@ -21,5 +21,5 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(fmt.Sprintf("Success! Token received %v", tk))
+	fmt.Println(fmt.Sprintf("Success! Token received: %v", tk))
 }
